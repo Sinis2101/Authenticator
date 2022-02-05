@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace Authenticator.Pages
 {
-    public class SignUpModel : PageModel
+    public class SingInModel : PageModel
     {
         [BindProperty]
         public User User { get; set; }
@@ -13,9 +13,9 @@ namespace Authenticator.Pages
         {
 
         }
-        
+
         public IActionResult OnPost()
-        {        
+        {
             if (ModelState.IsValid == false)
             {
                 return Page();
