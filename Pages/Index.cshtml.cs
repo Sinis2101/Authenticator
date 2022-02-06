@@ -31,6 +31,8 @@ namespace Authenticator.Pages
             return RedirectToPage("/Index");
         }
 
+        
+
 
     }
 }
